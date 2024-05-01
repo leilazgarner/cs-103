@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Background Image */
+img {
+    max-width: 100%;
+}
+
+#background {
+    height: 130vh;
+    background-image: url("src/freezer.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* Background Image */
+
+
+/* Header */
+header{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+header h1{
+    font-size: calc(50px + 1vw);
+    color: deeppink;
+    font-weight: bold;
+    padding: 0 0 1% 3%;
+    font-style: italic;
+    font-family: Lucida, Didiot, Andalé Mono, monospace
+}
+/* Header */
+
+
+/* Navigation */
+nav li{
+    display: inline;
+    margin: 3% 3% 3% 3%;
+    padding: 0 0 0 4.3%;
+    font-weight: lighter;
+    font-family: Lucida, Didiot, Andalé Mono, monospace
+}
+
+nav a{
+    color: deeppink;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: calc(2px + 1vw)
+}
+/* Navigation */
+
+
+/* Mochi img */
+#mochi-1 {
+    z-index: 1;
+    max-width: 80vw;
+    position: absolute;
+    top: 80%;
+    left: 67%;
+    width: 600px;
+    height: 650px;
+    margin: 0;
+    padding: 0;
+    background-image: url("src/mochi-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+/* Mochi img */
+
+
+/* Recipe */
+main h3 {
+    color: deeppink;
+    font-weight: bold;
+    font-variant: all-small-caps;
+    font-size: calc(5px + 1vw);
+    font-family: Lucida, Didiot, Andalé Mono, monospace
+
+}
+
+#main-row {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 9% 0 0 0;
+    padding: 0 44% 0 0;
+}
+
+#recipe{
+    position: absolute;
+    color: deeppink;
+    margin: 5% 0 0 0;
+    padding: 0 0 0 20%;
+    font-weight: bold;
+    font-size: calc(30px + 1vw);
+    font-family: Lucida, Didiot, Andalé Mono, monospace;
+}
+/* Recipe */
+
+/* Footer */
+footer {
+    font-size: calc(2px + 1vw);
+    color: white;
+    background: deeppink;
+    padding: 1%;
+    font-style: italic;
+    font-family: Lucida, Didiot, Andalé Mono, monospace
+}
+
+footer a{
+    font-size: calc(2px + 1vw);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: italic;
+    font-family: Lucida, Didiot, Andalé Mono, monospace
+}
+/* Footer */
+
+
+/* Main Container */
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    user-select: none;
+}
+/* Main Container */
+
+

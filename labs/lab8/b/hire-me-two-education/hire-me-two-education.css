@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+}
+.wrapper{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #FFFFFF;
+}
+header{
+    background-color: #a393c4;
+    padding: 2%;
+}
+h1{/*Leila Garner*/
+    text-align: left;
+    color: #F2F1EB;
+    font-size: calc(20px + 1vw);
+    font-family: "Playfair Display", "Times New Roman", Georgia, serif;
+}
+h4{/*My Online Resume*/
+    text-align: left;
+    color: #F2F1EB;
+    font-size: calc(7px + 1vw);
+    font-family: "Playfair Display", "Times New Roman", Georgia, serif;
+}
+h2{/*education*/
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 1vw;
+    font-size: calc(10px + 1vw);
+    color: #3f305e;
+    font-family: "Playfair Display", "Times New Roman", Georgia, serif;
+}
+main{
+    width:70%;
+}
+nav{
+    width:30%;
+    text-align: center;
+    background-color: #d1c4e9;
+}
+nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 0;
+    font-family: "Playfair Display", "Times New Roman", Georgia, serif;
+}
+nav li{
+    display: inline;
+    padding: 8%;
+    box-sizing: border-box;
+    background-color: #eae6e1;
+    border: 10px solid #d1c4e9;
+    font-size: calc(5px + 1vw);
+}
+nav a{
+    text-decoration: none;
+    color: #3f305e;
+}
+div{
+    background-color: #F2F1EB;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+div p{/*freelance painter*/
+    color: #3f305e;
+    margin: 1vw;
+    padding-left: 2vw;
+    font-size: calc(2px + 1vw);
+    font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+}
+main ul li{
+    color: #3f305e;
+    margin-left: 5%;
+    font-size: calc(2px + 1vw);
+    font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+}
+footer{
+    background-color: #a393c4;
+}
+footer p{
+    text-align: center;
+    color: #F2F1EB;
+    font-size: calc(2px + 1vw);
+    font-family: "Playfair Display", "Times New Roman", Georgia, serif;
+}
+footer a{
+    color: #F2F1EB;
+    font-size: calc(2px + 1vw);
+}
+@media screen and (max-width: 750px){
+    #container{
+        flex-direction: column;
+    }
+    nav{
+        width: 100%;
+    }
+    nav ul{
+        padding-left: 0;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        text-align: center;
+        margin: auto;
+        font-family: "Playfair Display", "Times New Roman", Georgia, serif;
+    }
+    nav li{
+        display: inline;
+        margin: auto;
+        padding: 0 4vw;
+        box-sizing: border-box;
+        background-color: #F5EEE6;
+        border: 4px solid #d1c4e9;
+        font-size: calc(2px + 1vw);
+    }
+    main{
+        width:100%;
+    }
+    h1{/*Leila Garner*/
+        text-align: center;
+    }
+    h4{/*My Online Resume*/
+        text-align: center;
+        color: #F2F1EB;
+        font-size: calc(7px + 1vw);
+        font-family: "Playfair Display", "Times New Roman", Georgia, serif;
+    }
+    main ul li{
+        color: #3f305e;
+        margin-left: 2%;
+        font-size: calc(2px + 1vw);
+        font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+    }
+}
+
+

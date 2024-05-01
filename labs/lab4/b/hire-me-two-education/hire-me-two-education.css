@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: #a393c4;
+    padding: 15px
+}
+h1{/*Leila Garner*/
+    text-align: center;
+    color: #F2F1EB;
+}
+h4{/*My Online Resume*/
+    text-align: center;
+    color: #F2F1EB;
+}
+h2{
+    text-align: center;
+}
+nav{
+    padding: 20px;
+    background-color: #F2F1EB;
+}
+nav ul{
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+}
+nav li{
+    display: inline;
+    margin: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #eae6e1;
+    border: 6px solid #d1c4e9;
+}
+nav a{
+    text-decoration: none;
+    color: #6b5d89;
+}
+div{
+    background-color: #F2F1EB;
+    padding-bottom: 15px;
+}
+div p{/*boston university*/
+    color: #6b5d89;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding: 10px;
+}
+div ul{/*expected graduation*/
+    color: #8070a2;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+div h2{
+    color: #8070a2;/*education*/
+    padding-bottom: 15px;
+}
+
+footer{
+    background-color: #a393c4;
+}
+footer p{
+    text-align: center;
+    color: #F2F1EB;
+}
+footer a{
+    color: #F2F1EB;
+}

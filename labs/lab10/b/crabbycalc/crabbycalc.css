@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Positioning for crab images */
+#crabs {
+    position: relative;
+    margin: auto;
+}
+
+#crabs img {
+    max-width: 15%;
+}
+body {
+    background-color: #FFFFFF;
+}
+.wrapper {
+    width: 80vw;
+    display: flex;
+    height: 100vh;
+    margin: auto;
+    background-color: lightblue;
+}
+#container {
+    padding-top: 0;
+    margin: auto;
+}
+header {
+    padding-top: 0;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+header h1 {
+    color: #FF5733;
+    font-family: "Titan One", Impact, Arial, sans-serif;
+    font-size: calc(20px + 3vw);
+}
+
+#input-area {
+    text-align: center;
+    display: block;
+    margin-bottom: 2%;
+}
+input::placeholder {
+    font-family: "M PLUS Rounded 1c", "Helvetica Neue", Arial, sans-serif;
+    font-size: calc(6px + 1vw);
+}
+input {
+    width: 22%;
+    margin: .5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", "Helvetica Neue", Arial, sans-serif;
+    font-size: calc(12px + 1vw);
+}
+
+#buttons {
+    text-align: center;
+    margin: 1%;
+}
+
+button {
+    padding: 1% 2%;
+    margin: .5%;
+    border-radius: 5px;
+    border: none;
+    background-color: #FF5733;
+    color: #FFF;
+    font-family: "M PLUS Rounded 1c", "Helvetica Neue", Arial, sans-serif;
+    font-size: calc(10px + 1vw);
+}
+
+button:hover {
+    background-color: #FF774E;
+}
+
+#output {
+    margin-top: 6%;
+    text-align: center;
+    font-size: calc(17px + 1vw);
+    font-family: "M PLUS Rounded 1c", "Helvetica Neue", Arial, sans-serif;
+    color: #333;
+}
+footer {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: lightblue;
+    text-align: center;
+    font-size: calc(2px + 1vw);
+    font-family: "M PLUS Rounded 1c", "Helvetica Neue", Arial, sans-serif;
+    color: #777;
+}
+footer a {
+    color: #FF5733;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-family: "M PLUS Rounded 1c", "Helvetica Neue", Arial, sans-serif;
+    font-size: calc(3px + 1vw);
+}

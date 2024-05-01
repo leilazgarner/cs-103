@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /cs-103/
+Sitemap: https://cs-people.bu.edu/lzgarner/cs-103/labs/lab3/b/b/sitemap.xml

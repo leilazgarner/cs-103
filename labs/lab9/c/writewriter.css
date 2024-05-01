@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#page-wrapper{
+    height: 100vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #AFC8AD;
+}
+#input-area {
+    justify-content: center;
+}
+
+label {
+    margin-left: 34%;
+    text-align: center;
+    font-size: calc(10px + 1vw);
+    font-family: "Playfair Display", "Times New Roman", Georgia, serif;
+}
+
+input {
+    margin-left: 1%;
+    margin-top: 6%;
+    padding: 1%;
+    font-size: calc(5px + 1vw);
+    font-family: "Playfair Display", "Times New Roman", Georgia, serif;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+button {
+    margin-top: 2%;
+    margin-left: 42%;
+    justify-content: center;
+    padding: 1% 4%;
+    font-size: calc(5px + 1vw);
+    font-family: "Playfair Display", "Times New Roman", Georgia, serif;
+    background-color: #4CAF50; /* Green */
+    color: #fff; /* White text */
+    border-radius: 5px; /* Rounded corners */
+}
+
+#output {
+    padding-top: 12%;
+    font-size: calc(10px + 1vw);
+    text-align: center;
+    font-family: "Playfair Display", "Times New Roman", Georgia, serif;
+}
+h3{
+    font-size: calc(30px + 1vw);
+    text-align: center;
+    font-family: "Pacifico", Lobster,  cursive;
+    font-weight: 400;
+
+}

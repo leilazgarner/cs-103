@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#page-wrapper {
+    margin: auto;
+    width: 60%;
+    background-color: #FFF7F1;
+}
+
+h1 {
+    color: #76453B;
+}
+
+p {
+    background-color: #FEECE2;
+    color: darkred;
+}
+
+/*random words*/
+.cake {
+    color: #005B41;
+}
+
+.shoe {
+    color: #5C8374;
+}
+
+.sun {
+    color: #1B4242;
+}
+
+.fly {
+    color: #092635;
+}
+
+h3 {
+    font-variant: small-caps;
+    color: sienna;
+}
+
+#blah {
+    border: 2px darkred dotted;
+}
+
+#blah-blah {
+    margin-left: 85px;
+    margin-right: 85px;
+}
+
+/*ingredients*/
+ul #leeks {
+    color: #5F0F40;
+}
+
+ul #potatoes {
+    color: #503C3C;
+}
+
+ul #cloves {
+    color: #7E6363;
+}
+
+ul #yukon {
+    color: #A87C7C;
+}
+
+ul #chicken {
+    color: #116D6E;
+}
+
+ul #bay {
+    color: #A13333;
+}
+
+ul #thyme {
+    color: #B3541E;
+}
+
+ul #salt {
+    color: #C07F00;
+}
+
+ul #pepper {
+    color: #801336;
+}
+
+ul #cream {
+    color: #C72C41;
+}
+
+ul #chives {
+    color: #A94438;
+}
+
+/*preparation*/
+ol #pot {
+    background-color: #FFBE98;
+}
+
+ol #broth {
+    background-color: #FEECE2;
+}
+
+ol #leaf {
+    background: #F7DED0;
+}
+
+ol #milk {
+    background-color: #E2BFB3;
+}
+
+ol #hot {
+    background-color: #CAA6A6;
+}
+

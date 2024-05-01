@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    margin: auto;
+    background-color: lemonchiffon;
+    text-align: center;
+}
+header{
+    background-color: olive;
+    font-size: calc(2px + 1vw);
+    }
+
+img {
+    max-width: 100%;
+}
+h1{
+    color: saddlebrown;
+    text-align: center;
+}
+nav{
+    background-color: rosybrown ;
+    padding-left: 0;
+}
+nav li{
+    font-size: calc(2px + 1vw);
+}
+nav ul li {
+    display: inline;
+    margin: 3%;
+}
+main p{
+    color: saddlebrown;
+    border: 3px solid darkolivegreen;
+    font-size: calc(2px + 1vw);
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    background-color: burlywood;
+    text-align: center;
+    /*height: 100vh;*/
+}
+
+footer {
+    background-color: rosybrown;
+    font-size: calc(2px + 1vw);
+}

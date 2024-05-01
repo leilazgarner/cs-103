@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: #80BCBD;
+    padding: 15px
+}
+h1{/*Leila Garner*/
+    text-align: center;
+    color: #F2F1EB;
+}
+h4{/*My Online Resume*/
+    text-align: center;
+    color: #F2F1EB;
+}
+h2{
+    text-align: center;
+}
+nav{
+    padding: 20px;
+    background-color: #F2F1EB;
+}
+nav ul{
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+}
+nav li{
+    display: inline;
+    margin: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #ebe9df;
+    border: 6px solid #AAD7D9;
+}
+nav a{
+    text-decoration: none;
+    color: #4e8081;
+}
+div{
+    background-color: #F2F1EB;
+    padding-bottom: 15px;
+    text-align: center;
+}
+div h2{
+    color: #4e8081;/*Skills*/
+    padding-bottom: 15px;
+}
+div li{
+    color: #4e8081;
+    list-style: none;
+    padding-right: 35px;
+}
+footer{
+    background-color: #80BCBD;
+}
+footer p{
+    text-align: center;
+    color: #F2F1EB;
+}
+footer a{
+    color: #F2F1EB;
+}

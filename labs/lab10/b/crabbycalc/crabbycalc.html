@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="crabbycalc.css">
+    <title>Calc | CS-103</title>
+</head>
+    <body>
+        <div class="wrapper">
+            <div id="container">
+                <header>
+                    <div id="crabs">
+                        <a href="crabbycalccredits.html#crab1">
+                            <img src="src/crab1.png" alt="crab1">
+                        </a>
+                        <a href="crabbycalccredits.html#crab2">
+                            <img src="src/crab2.png" alt="crab2">
+                        </a>
+                        <a href="crabbycalccredits.html#crab3">
+                            <img src="src/crab3.png" alt="crab3">
+                        </a>
+                    </div>
+                    <h1>The Crabulator</h1>
+                    <link rel="preconnect" href="https://fonts.googleapis.com">
+                    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Titan+One&display=swap" rel="stylesheet">
+                </header>
+                <div id="input-area">
+                    <label for="first-number"></label><input id="first-number" placeholder="1st number">
+                    <label for="second-number"></label><input id="second-number" placeholder="2nd number">
+                </div>
+                <div id="buttons">
+                    <button onclick="addition()"> + </button>
+                    <button onclick="subtraction()"> - </button>
+                    <button onclick="multiplication()"> * </button>
+                    <button onclick="division()"> / </button>
+                    <button onclick="power()"> ^ </button>
+                    <button onclick="clearInput()">Clear</button>
+                </div>
+                <h3 id="output"></h3>
+            </div>
+        </div>
+        <footer>
+            <p>All rights reserved by Leila Garner &#169; <a href="crabbycalccredits.html">Credits</a></p>
+        </footer>
+        <script src="crabbycalc.js"></script>
+    </body>
+</html>

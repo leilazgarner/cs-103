@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #FFFFFF;
+}
+header{
+    background-color: #a393c4;
+    padding: 2%;
+}
+h1{/*Leila Garner*/
+    text-align: center;
+    color: #F2F1EB;
+    font-size: calc(20px + 1vw);
+}
+h4{/*My Online Resume*/
+    text-align: center;
+    color: #F2F1EB;
+    font-size: calc(7px + 1vw);
+}
+div h2{
+    color: #3f305e;/*education*/
+    text-align: center;
+    padding-bottom: 1vw;
+    font-size: calc(10px + 1vw);
+}
+nav{
+    text-align: center;
+    padding-bottom: 2%;
+    background-color: #F2F1EB;
+}
+nav ul{
+    padding-top: 2%;
+    padding-left: 0;
+    list-style: none;
+    margin: auto;
+}
+nav li{
+    display: inline;
+    margin: auto;
+    padding: 0 4vw;
+    box-sizing: border-box;
+    background-color: #eae6e1;
+    border: 5px solid #d1c4e9;
+    font-size: calc(2px + 1vw);
+}
+nav a{
+    text-decoration: none;
+    color: #3f305e;
+}
+div{
+    background-color: #F2F1EB;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+div p{/*boston university*/
+    color: #3f305e;
+    margin: 1vw;
+    padding-left: 5vw;
+    font-size: calc(2px + 1vw);
+}
+.list ul{/*expected graduation*/
+    color: #3f305e;
+    padding-left: 10vw;
+    font-size: calc(2px + 1vw);
+}
+footer{
+    background-color: #a393c4;
+}
+footer p{
+    color: #F2F1EB;
+    font-size: calc(2px + 1vw);
+    text-align: center;
+}
+footer a{
+    color: #F2F1EB;
+    font-size: calc(2px + 1vw);
+}

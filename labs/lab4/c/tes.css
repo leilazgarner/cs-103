@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+
+div{
+    margin: auto;
+    background-color: lemonchiffon;
+    text-align: center;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 0;
+}
+
+header{
+    background-color: olive;
+    }
+
+h1{
+    color: saddlebrown;
+    text-align: center;
+}
+
+nav{
+    background-color: rosybrown ;
+    padding-left: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 6px
+
+}
+
+main p{
+    color: saddlebrown;
+    border: 3px solid darkolivegreen;
+
+}
+
+main{
+    background-color: burlywood;
+
+}
+
+footer {
+    background-color: rosybrown
+}

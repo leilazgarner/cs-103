@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #FFFFFF;
+}
+header{
+    background-color: #E6A4B4;
+    padding: 2%;
+}
+h1{/*Leila Garner*/
+    text-align: center;
+    color: #F2F1EB;
+    font-size: calc(20px + 1vw);
+}
+h4{/*My Online Resume*/
+    text-align: center;
+    color: #F2F1EB;
+    font-size: calc(7px + 1vw);
+}
+h2{/*experience*/
+    text-align: center;
+    padding-bottom: 1vw;
+    font-size: calc(10px + 1vw);
+    color: #814050;
+}
+nav{
+    text-align: center;
+    padding-bottom: 2%;
+    background-color: #F2F1EB;
+}
+nav ul{
+    padding-top: 2%;
+    padding-left: 0;
+    list-style: none;
+    margin: auto;
+}
+nav li{
+    display: inline;
+    margin: auto;
+    padding: 0 4vw;
+    box-sizing: border-box;
+    background-color: #F5EEE6;
+    border: 5px solid #E7CBCB;
+    font-size: calc(2px + 1vw);
+}
+nav a{
+    text-decoration: none;
+    color: #814050;
+}
+div{
+    background-color: #F2F1EB;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+div p{/*freelance painter*/
+    color: #814050;
+    margin: 1vw;
+    padding-left: 5vw;
+    font-size: calc(2px + 1vw);
+}
+.list ul{
+    color: #814050;
+    padding-left: 10vw;
+    font-size: calc(2px + 1vw);
+}
+footer{
+    background-color: #E6A4B4;
+}
+footer p{
+    text-align: center;
+    color: #F2F1EB;
+    font-size: calc(2px + 1vw);
+}
+footer a{
+    color: #F2F1EB;
+    font-size: calc(2px + 1vw);
+}
